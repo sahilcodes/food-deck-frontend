@@ -30,7 +30,7 @@ const wsLink = new WebSocketLink({
 const httpLink = createHttpLink({
   uri:
     process.env.NODE_ENV === "production"
-      ? "https://nuber-eats-backend.herokuapp.com/graphql"
+      ? "https:/food-deck-backend.herokuapp.com/graphql"
       : "http://localhost:4000/graphql",
 });
 
