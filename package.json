@@ -1,7 +1,14 @@
 {
   "name": "fooddeck-frontend",
-  "version": "1.1",
+  "version": "1.0",
+  "description": "",
+  "author": "Sahildeep",
   "private": true,
+  "license": "UNLICENSED",
+  "engines": {
+    "node": "12.x",
+    "npm": "7.x"
+  },
   "dependencies": {
     "@apollo/client": "^3.2.7",
     "@fortawesome/fontawesome-svg-core": "^1.2.32",
